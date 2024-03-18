@@ -1,5 +1,6 @@
-<?php//headers
-header('Access-Control-Allow_='Origin');
+<?php
+//headers
+header('Access-Control-Allow-Origin: *');
 header('Content-Type: application/json');
 
 
@@ -37,4 +38,3 @@ if($num > 0){
     }else{
         echo json_encode(array('message'=>'no post found'));
     }
-}

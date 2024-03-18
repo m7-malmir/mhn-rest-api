@@ -15,4 +15,6 @@ $db->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 
 
 define('APP_NAME','php rest api');
+
+
 ?>
