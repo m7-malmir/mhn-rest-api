@@ -17,7 +17,7 @@ require_once("../includes/config.php");
 
 //core classes
 require_once("post.php");
-
+require_once("category.php");
 
 
 ?>
